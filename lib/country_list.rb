@@ -21,7 +21,6 @@ class CountryList
   end
 
   def countries_for_continent(continent)
-    all
   end
 
 end
