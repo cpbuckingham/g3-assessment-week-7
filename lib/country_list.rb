@@ -21,6 +21,13 @@ class CountryList
   end
 
   def countries_for_continent(continent)
+    continent = {}
+    all.each[name[:continent]] =
   end
 
 end
+
+@parks.each do |park|
+  id_hash[park[:id]] = park
+end
+id_hash
